@@ -26,7 +26,6 @@ DSLViewMaker *alloc_view(void) {
         _view = [[UIView alloc] init];
     }
     return self;
-    
 }
 
 -(DSLViewMaker *(^)(CGRect))frame {
