@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "UIView+DSL.h"
 #import "UIImageView+DSL.h"
+#import "DSLViewMaker.h"
 
 @interface ViewController ()
 
@@ -26,8 +27,12 @@
     UIImageView *imageView = [[UIImageView alloc] init];
     imageView.DSL_frame(CGRectMake((screenSize.width -  400) / 2, 200, 400, 267)).DSL_image([UIImage imageNamed:@"image"]);
     
+    UIView *makerView = alloc_view().frame(CGRectMake((screenSize.width -  150) / 2, 480, 150, 150)).backgroundColor([UIColor blueColor]).view;
+    
     [self.view addSubview:view];
     [self.view addSubview:imageView];
+    [self.view addSubview:makerView];
+    
 }
 
 

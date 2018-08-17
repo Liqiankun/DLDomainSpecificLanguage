@@ -7,17 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63A5B6E22126A073002EACC5 /* UIView+DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A5B6DE2126A073002EACC5 /* UIView+DSL.m */; };
+		63A5B6E32126A073002EACC5 /* UIImageView+DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A5B6E12126A073002EACC5 /* UIImageView+DSL.m */; };
+		63A5B6E72126A1DC002EACC5 /* DSLViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A5B6E62126A1DC002EACC5 /* DSLViewMaker.m */; };
 		63CF57E62122BFC8000DC023 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CF57E52122BFC8000DC023 /* AppDelegate.m */; };
 		63CF57E92122BFC8000DC023 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CF57E82122BFC8000DC023 /* ViewController.m */; };
 		63CF57EC2122BFC8000DC023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CF57EA2122BFC8000DC023 /* Main.storyboard */; };
 		63CF57EE2122BFC9000DC023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CF57ED2122BFC9000DC023 /* Assets.xcassets */; };
 		63CF57F12122BFC9000DC023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CF57EF2122BFC9000DC023 /* LaunchScreen.storyboard */; };
 		63CF57F42122BFC9000DC023 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CF57F32122BFC9000DC023 /* main.m */; };
-		63CF57FC2122C057000DC023 /* UIView+DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CF57FB2122C057000DC023 /* UIView+DSL.m */; };
-		63CF57FF2122C363000DC023 /* UIImageView+DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CF57FE2122C363000DC023 /* UIImageView+DSL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63A5B6DE2126A073002EACC5 /* UIView+DSL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DSL.m"; sourceTree = "<group>"; };
+		63A5B6DF2126A073002EACC5 /* UIImageView+DSL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DSL.h"; sourceTree = "<group>"; };
+		63A5B6E02126A073002EACC5 /* UIView+DSL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DSL.h"; sourceTree = "<group>"; };
+		63A5B6E12126A073002EACC5 /* UIImageView+DSL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DSL.m"; sourceTree = "<group>"; };
+		63A5B6E52126A1DC002EACC5 /* DSLViewMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSLViewMaker.h; sourceTree = "<group>"; };
+		63A5B6E62126A1DC002EACC5 /* DSLViewMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSLViewMaker.m; sourceTree = "<group>"; };
 		63CF57E12122BFC8000DC023 /* DLDomainSpecificLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLDomainSpecificLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CF57E42122BFC8000DC023 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63CF57E52122BFC8000DC023 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,10 +35,6 @@
 		63CF57F02122BFC9000DC023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63CF57F22122BFC9000DC023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63CF57F32122BFC9000DC023 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		63CF57FA2122C057000DC023 /* UIView+DSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+DSL.h"; sourceTree = "<group>"; };
-		63CF57FB2122C057000DC023 /* UIView+DSL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+DSL.m"; sourceTree = "<group>"; };
-		63CF57FD2122C363000DC023 /* UIImageView+DSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DSL.h"; sourceTree = "<group>"; };
-		63CF57FE2122C363000DC023 /* UIImageView+DSL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DSL.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63A5B6DD2126A073002EACC5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				63A5B6E02126A073002EACC5 /* UIView+DSL.h */,
+				63A5B6DE2126A073002EACC5 /* UIView+DSL.m */,
+				63A5B6DF2126A073002EACC5 /* UIImageView+DSL.h */,
+				63A5B6E12126A073002EACC5 /* UIImageView+DSL.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		63A5B6E42126A1C5002EACC5 /* MiddleClass */ = {
+			isa = PBXGroup;
+			children = (
+				63A5B6E52126A1DC002EACC5 /* DSLViewMaker.h */,
+				63A5B6E62126A1DC002EACC5 /* DSLViewMaker.m */,
+			);
+			path = MiddleClass;
+			sourceTree = "<group>";
+		};
 		63CF57D82122BFC8000DC023 = {
 			isa = PBXGroup;
 			children = (
@@ -64,10 +87,8 @@
 		63CF57E32122BFC8000DC023 /* DLDomainSpecificLanguage */ = {
 			isa = PBXGroup;
 			children = (
-				63CF57FA2122C057000DC023 /* UIView+DSL.h */,
-				63CF57FB2122C057000DC023 /* UIView+DSL.m */,
-				63CF57FD2122C363000DC023 /* UIImageView+DSL.h */,
-				63CF57FE2122C363000DC023 /* UIImageView+DSL.m */,
+				63A5B6E42126A1C5002EACC5 /* MiddleClass */,
+				63A5B6DD2126A073002EACC5 /* Category */,
 				63CF57E42122BFC8000DC023 /* AppDelegate.h */,
 				63CF57E52122BFC8000DC023 /* AppDelegate.m */,
 				63CF57E72122BFC8000DC023 /* ViewController.h */,
@@ -152,9 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				63CF57E92122BFC8000DC023 /* ViewController.m in Sources */,
-				63CF57FF2122C363000DC023 /* UIImageView+DSL.m in Sources */,
+				63A5B6E32126A073002EACC5 /* UIImageView+DSL.m in Sources */,
 				63CF57F42122BFC9000DC023 /* main.m in Sources */,
-				63CF57FC2122C057000DC023 /* UIView+DSL.m in Sources */,
+				63A5B6E72126A1DC002EACC5 /* DSLViewMaker.m in Sources */,
+				63A5B6E22126A073002EACC5 /* UIView+DSL.m in Sources */,
 				63CF57E62122BFC8000DC023 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

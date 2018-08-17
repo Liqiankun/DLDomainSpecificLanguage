@@ -11,6 +11,6 @@
 @interface UIView (DSL)
 
 -(UIView* (^)(CGRect))DSL_frame;
-
 - (UIView *(^)(UIColor *))DSL_backgroundColor;
+
 @end

@@ -11,22 +11,16 @@
 #define weak_Self __weak typeof(self) weakSelf = self
 #define strong_Self __strong typeof((weakSelf)) strongSelf = (weakSelf)
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wincomplete-implementation"
 @implementation UIImageView (DSL)
+#pragma clang diagnostic pop
 
--(SetImageBlock)DSL_image {
+-(UIImageView* (^)(UIImage *))DSL_image {
     weak_Self;
     return ^UIImageView* (UIImage *image) {
         strong_Self;
         strongSelf.image = image;
-        return strongSelf;
-    };
-}
-
--(SetFrameBlock)DSL_frame {
-    weak_Self;
-    return ^UIImageView* (CGRect frame) {
-        strong_Self;
-        strongSelf.frame = frame;
         return strongSelf;
     };
 }

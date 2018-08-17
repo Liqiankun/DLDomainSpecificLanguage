@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-typedef UIImageView* (^SetImageBlock)(UIImage *);
-typedef UIImageView* (^SetFrameBlock)(CGRect frame);
 
 @interface UIImageView (DSL)
 
--(SetImageBlock)DSL_image;
--(SetFrameBlock)DSL_frame;
+#pragma mark - UIView
+-(UIImageView* (^)(CGRect frame))DSL_frame;
+
+#pragma mark - UIImageView
+-(UIImageView* (^)(UIImage *))DSL_image;
 
 @end
